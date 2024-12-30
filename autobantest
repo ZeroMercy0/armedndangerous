@@ -1,0 +1,12 @@
+local settings = {
+   AutoChat_Time = 0.5,
+   AutoChat_Delay = 0.5,
+   AutoChat = true,
+}
+
+local chatrem = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+
+while task.wait(settings.AutoChat_Time) do
+    chatrem:FireServer('bitchass nigger i rape kid i fuck kid ez nigger nigga nigger bitch ass', "All")
+    print("Sent Message")
+end
